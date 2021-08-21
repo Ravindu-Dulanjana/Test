@@ -1,0 +1,48 @@
+.btn {
+    background-color: white;
+    height: 100px;
+    width: 150px;
+    color: black;
+}
+
+.btn:focus {
+    background-color: black;
+    height: 150px;
+    width: 100px;
+    color: white;
+    transition-delay: 1s;
+    transition-duration: 5s;
+    /* transition-property: color, background-color; */
+}
+
+.parent {
+    width: 600px;
+    height: 600px;
+    border: 4px solid red;
+    padding: 10px;
+}
+
+.child {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.child:focus {
+    animation: left-to-right 5s ease-in-out forwards 3 2s alternate;
+}
+
+@keyframes left-to-right {
+    0% {
+        transform: translateX(0);
+    }
+    33% {
+        transform: translateY(200%);
+    }
+    66% {
+        transform: translate(200%, 200%);
+    }
+    100% {
+        transform: translateX(200%);
+    }
+}

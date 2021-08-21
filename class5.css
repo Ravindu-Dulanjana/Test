@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(31, 226, 195);
+}
+
+.firstBox {
+    border: black solid;
+    background-color: cyan;
+}
+
+.outerDiv {
+    padding: 10px;
+    background-color: crimson;
+}
+
+#internal_ul {
+    padding-left: 50%;
+    background-color: cadetblue;
+}
+
+ol {
+    padding-left: 50%;
+    background-color: lawngreen;
+}
+
+ol li {
+    padding-left: 5px;
+}
+
+#internal_ul li {
+    padding-left: 10px;
+}
+
+p[name="attr"] {
+    background-color: lightcoral;
+}
+
+img {
+    border-radius: 50%;
+}

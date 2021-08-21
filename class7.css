@@ -1,0 +1,15 @@
+.body {
+    position: relative;
+}
+
+.static {
+    border: black solid 2px;
+    position: static;
+    top: 500px;
+}
+
+.relative {
+    border: blueviolet solid 2px;
+    position: relative;
+    left: 50px;
+}

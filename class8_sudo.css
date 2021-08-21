@@ -1,0 +1,29 @@
+.btn {
+    background-color: red;
+    color: white;
+    border-style: none;
+}
+
+.btn:hover {
+    background-color: yellowgreen;
+    color: red;
+}
+
+.btn:active {
+    background-color: black;
+    color: chartreuse;
+}
+
+.btn:focus {
+    background-color: crimson;
+    color: cyan;
+}
+
+.para::before {
+    content: "My Name is : ";
+    color: darkorchid;
+}
+
+.para::after {
+    content: " Dulanjana";
+}
